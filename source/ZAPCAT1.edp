@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Project>
+    <ProjectName val="ZAPCAT"/>
+    <VCActive val="Y"/>
+    <WorkOffline val="Y"/>
+    <VCProjectName val="&quot;$/ZAPCAT&quot;,"/>
+    <VCProjPath val="D:\unipaas\Projects\ZAPCAT\vss"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{870CA404-E491-4FD9-AD83-8207325E11A0}"/>
+  </Project>
+
+</Application>

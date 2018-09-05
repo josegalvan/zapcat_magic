@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11000"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="95"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="24" name="EmpresaNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="Fecha">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="RequisicionNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="44" name="ProveedorNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="32" name="AsociadoNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="33" name="PedidoNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="34" name="Direccion">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U45"/>
+          <Size id="174" val="45"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="35" name="Colonia">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U45"/>
+          <Size id="174" val="45"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="36" name="Ciudad">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="0"/>
+          <Picture id="157" valUnicode="U45"/>
+          <Size id="174" val="45"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="49" name="Estado">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U45"/>
+          <Size id="174" val="45"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="50" name="Pais">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U45"/>
+          <Size id="174" val="45"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="51" name="CodigoPostal">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="37" name="ArticuloId">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98"/>
+          <Picture id="157" valUnicode="16"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="38" name="DocumentoNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Range id="98" valUnicode="1-9999999999"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="39" name="Telefono">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="15"/>
+          <Size id="174" val="15"/>
+          <_Flip id="194"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="41" name="Radio">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="15"/>
+          <Size id="174" val="15"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="40" name="DireccionElectronica">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="L100"/>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="42" name="TipoDocumento">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="Abono,Cargo,Credito,Remision,Todos"/>
+          <Picture id="157" valUnicode="12"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="43" name="Concepto">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="60"/>
+          <Size id="174" val="60"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="45" name="Descripcion">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U40"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="46" name="RazonSocial">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U45"/>
+          <Size id="174" val="45"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="48" name="Usuario">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="52" name="idPrecio">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="53" name="SucursalNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="54" name="Nombre">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="55" name="ApPaterno">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="56" name="ApMat">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="57" name="Path">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="150"/>
+          <Size id="174" val="150"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="58" name="Monto">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8.2C"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="59" name="StatusPedido">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98"/>
+          <Picture id="157" valUnicode="20"/>
+          <Browser id="162">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </Browser>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </BrowserTable>
+          <DefaultValue id="170" val="Pendiente"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="60" name="DocumentoAlfabetico">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="10"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="61" name="Precio">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6.2C"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="62" name="RequisicionNo.">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="63" name="StatusRequisicion">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="Pendiente,Surtido Parcial,Surtido Total,Cancelada"/>
+          <Picture id="157" valUnicode="20"/>
+          <Browser id="162">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </Browser>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </BrowserTable>
+          <DefaultValue id="170" val="Pendiente"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+          <DefaultStorage id="274"/>
+        </PropertyList>
+      </Object>
+      <Object id="64" name="Cantidad5">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <DefaultStorage id="274"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Public="FormaScreenCatalogos" id="66" name="FormaScreenCatalogos">
+        <PropertyList model="FORM_GUI0">
+          <Width id="23" val="664"/>
+          <Height id="24" val="304"/>
+          <MinimizeButton id="28"/>
+          <MaximizeButton id="29"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="2"/>
+          <Color id="51" val="6"/>
+          <BorderStyle id="64" val="3"/>
+          <_Comment id="218"/>
+          <AllowDrop id="284"/>
+          <FormName id="311"/>
+          <WindowType id="358" val="9"/>
+          <UserStateIdentifier id="437"/>
+          <GradientColor id="480" val="1"/>
+          <GradientStyle id="481" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Public="TablaWindowsAzulTenue" id="67" name="TablaWindowsAzulTenue">
+        <PropertyList model="CTRL_GUI0_TABLE">
+          <SetTableColorBy id="428" val="2"/>
+          <AlternatingBgColor id="429" val="5"/>
+        </PropertyList>
+      </Object>
+      <Object id="68" name="FontTipoDireccion">
+        <PropertyList model="CTRL_GUI0_EDIT">
+          <Font id="50" val="13"/>
+          <Color id="51" val="6"/>
+        </PropertyList>
+      </Object>
+      <Object id="69" name="Talla">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="12"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="70" name="FontTextoNegritasNormal">
+        <PropertyList model="CTRL_GUI0_STATIC">
+          <Font id="50" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object id="72" name="Pagina">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="73" name="Catalogo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="Caballero,Dama,Joven,Señorita ,Niño,Niña,Ropa,Accesorios"/>
+          <Picture id="157" valUnicode="####-UUUUUUUU"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+          </GuiDisplayTable>
+          <Browser id="162">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </Browser>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </BrowserTable>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="75" name="FontTextoNegritasChico">
+        <PropertyList model="CTRL_GUI0_STATIC">
+          <Font id="50" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="76" name="BotonNegrita10">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <Font id="50" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object id="77" name="CausaDevolucion">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="25"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+          </GuiDisplay>
+          <Browser id="162">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </Browser>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </BrowserTable>
+          <Size id="174" val="25"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="80" name="Word">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="3"/>
+          <Instantiation id="279" val="2"/>
+          <TypeLibrary GUID="{00020905-0000-0000-C000-000000000046}" MAJOR="8" MINOR="4" id="281" name="Microsoft Word 12.0 Object Library (Ver 8.4)"/>
+          <ObjectName GUID="{0002096C-0000-0000-C000-000000000046}" id="282" name="Documents"/>
+          <_COMLicenseKey id="291"/>
+        </PropertyList>
+      </Object>
+      <Object id="89" name="Calendario">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="2"/>
+          <TypeLibrary GUID="{8E27C92E-1264-101C-8A2F-040224009C02}" MAJOR="7" id="281" name="Microsoft Calendar Control 12.0 (Ver 7.0)"/>
+          <ObjectName CanCreate="1" GUID="{8E27C92B-1264-101C-8A2F-040224009C02}" id="282"/>
+          <_COMLicenseKey id="291" val="EncodedLicenseKey(Version1.0)="/>
+        </PropertyList>
+      </Object>
+      <Object id="81" name="FontNormal.Edit.8">
+        <PropertyList model="CTRL_GUI0_EDIT">
+          <Font id="50" val="8"/>
+        </PropertyList>
+      </Object>
+      <Object id="82" name="FontNegritas.Text">
+        <PropertyList model="CTRL_GUI0_STATIC">
+          <Font id="50" val="13"/>
+        </PropertyList>
+      </Object>
+      <Object id="83" name="NumAlmacen">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="86" name="btnSalir">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="btn.Salir"/>
+          <Font id="50" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="14"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object Public="TablaWindowsGris" id="87" name="TablaWindowsGris">
+        <PropertyList model="CTRL_GUI0_TABLE">
+          <SetTableColorBy id="428" val="2"/>
+          <AlternatingBgColor id="429" val="9"/>
+        </PropertyList>
+      </Object>
+      <Object Public="TablaWindowsAzulFuerte" id="88" name="TablaWindowsAzulFuerte">
+        <PropertyList model="CTRL_GUI0_TABLE">
+          <SetTableColorBy id="428" val="2"/>
+          <AlternatingBgColor id="429" val="4"/>
+        </PropertyList>
+      </Object>
+      <Object id="90" name="Word">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="3"/>
+          <TypeLibrary GUID="{00020905-0000-0000-C000-000000000046}" MAJOR="8" MINOR="4" id="281" name="Microsoft Word 12.0 Object Library (Ver 8.4)"/>
+        </PropertyList>
+      </Object>
+      <Object Public="12" id="91" name="TipoDeVenta">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="Credito,Contado"/>
+          <Picture id="157" valUnicode="12"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+          </GuiDisplayTable>
+          <Browser id="162">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </Browser>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX"/>
+          </BrowserTable>
+          <DefaultValue id="170" val="Contado"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="92" name="Com">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="3"/>
+          <TypeLibrary GUID="{00020430-0000-0000-C000-000000000046}" MAJOR="2" id="281" name="OLE Automation (Ver 2.0)"/>
+          <ObjectName CanCreate="1" GUID="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" id="282" name="StdPicture"/>
+          <_COMLicenseKey id="291"/>
+        </PropertyList>
+      </Object>
+      <Object id="93" name="TitulosDeColumnaImportacionArt">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="Pagina,Codigo,Clave interna,Modelo,Marca,Color,Acabado,PrecioBase,PrecioEspecial,Costo,Talla,Estilo,INDEFINIDO"/>
+          <Picture id="157" valUnicode="50"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+          </GuiDisplayTable>
+          <Size id="174" val="50"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="94" name="TipoServicioDato">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="95" name="TipoServicioDisplay">
+        <PropertyList model="CTRL_GUI0_COMBOBOX"/>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

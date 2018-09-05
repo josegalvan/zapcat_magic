@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11000"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="PruebaWordComObjects" ISN_2="1" LastIsn="1" id="342">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="B"/>
+          <External val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="N"/>
+          <LastModified _date="734374" _time="57915" date="25/08/2011" time="16:05:15"/>
+        </Header>
+        <ItemIsn val="3"/>
+        <Resource>
+          <Columns/>
+          <ColumnsLastIsn val="3"/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="Y"/>
+          <EvaluateEndCondition val="A"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="A"/>
+            <LockingStrategy val="I"/>
+            <CacheStrategy val="T"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="T"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="Y"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="N"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="N"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="1"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="3"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="11">
+                  <Type val="2"/>
+                  <Text val="Activa el word"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="7">
+                  <OperationType val="C"/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="130"/>
+                      <Skip val="Y"/>
+                      <Name val="Return Value"/>
+                      <Type val="16393"/>
+                      <VT_Type val="8"/>
+                      <TypeLibrary GUID="{00020905-0000-0000-C000-000000000046}" MAJOR="8" MINOR="2" name="Microsoft Word 10.0 Object Library"/>
+                      <ObjectName CanCreate="1" GUID="{00020906-0000-0000-C000-000000000046}" name="Document"/>
+                    </Argument>
+                    <Argument>
+                      <id val="131"/>
+                      <Expression val="1"/>
+                      <Skip val="N"/>
+                      <Name val="FileName"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="132"/>
+                      <Skip val="Y"/>
+                      <Name val="ConfirmConversions"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="133"/>
+                      <Skip val="Y"/>
+                      <Name val="ReadOnly"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="134"/>
+                      <Skip val="Y"/>
+                      <Name val="AddToRecentFiles"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="135"/>
+                      <Skip val="Y"/>
+                      <Name val="PasswordDocument"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="136"/>
+                      <Skip val="Y"/>
+                      <Name val="PasswordTemplate"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="137"/>
+                      <Skip val="Y"/>
+                      <Name val="Revert"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="138"/>
+                      <Skip val="Y"/>
+                      <Name val="WritePasswordDocument"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="139"/>
+                      <Skip val="Y"/>
+                      <Name val="WritePasswordTemplate"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="140"/>
+                      <Skip val="Y"/>
+                      <Name val="Format"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="141"/>
+                      <Skip val="Y"/>
+                      <Name val="Encoding"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="142"/>
+                      <Skip val="Y"/>
+                      <Name val="Visible"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="143"/>
+                      <Skip val="Y"/>
+                      <Name val="OpenAndRepair"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="144"/>
+                      <Skip val="Y"/>
+                      <Name val="DocumentDirection"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="145"/>
+                      <Skip val="Y"/>
+                      <Name val="NoEncodingDialog"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                  </Arguments>
+                  <MethodName val="Documents.Open"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Option val="M"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="12">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="4">
+                  <OperationType val="C"/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="149"/>
+                      <Skip val="N"/>
+                      <Name val="Value"/>
+                      <Type val="11"/>
+                      <VT_Type val="8"/>
+                    </Argument>
+                  </Arguments>
+                  <PropertyName val="Windows.Application.Visible"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Option val="S"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="18">
+                  <OperationType val="C"/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="72"/>
+                      <Skip val="Y"/>
+                      <Name val="Return Value"/>
+                      <Type val="24"/>
+                      <VT_Type val="8"/>
+                    </Argument>
+                  </Arguments>
+                  <MethodName val="Documents.Application.Activate"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Option val="M"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="15">
+                  <OperationType val="C"/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="73"/>
+                      <Skip val="Y"/>
+                      <Name val="Return Value"/>
+                      <Type val="24"/>
+                      <VT_Type val="8"/>
+                    </Argument>
+                    <Argument>
+                      <id val="74"/>
+                      <Expression val="2"/>
+                      <Skip val="N"/>
+                      <Name val="Text"/>
+                      <Type val="8"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                  </Arguments>
+                  <MethodName val="Selection.TypeText"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Option val="M"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="16">
+                  <OperationType val="C"/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="45"/>
+                      <Skip val="Y"/>
+                      <Name val="Return Value"/>
+                      <Type val="24"/>
+                      <VT_Type val="8"/>
+                    </Argument>
+                    <Argument>
+                      <id val="46"/>
+                      <Skip val="Y"/>
+                      <Name val="NoPrompt"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="47"/>
+                      <Skip val="Y"/>
+                      <Name val="OriginalFormat"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                  </Arguments>
+                  <MethodName val="Documents.Save"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Option val="M"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="32">
+                  <OperationType val="C"/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="147"/>
+                      <Skip val="N"/>
+                      <Name val="Value"/>
+                      <Type val="11"/>
+                      <VT_Type val="8"/>
+                    </Argument>
+                  </Arguments>
+                  <PropertyName val="ActiveWindow.Visible"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Option val="S"/>
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="31">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="17">
+                  <OperationType val="C"/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="68"/>
+                      <Skip val="Y"/>
+                      <Name val="Return Value"/>
+                      <Type val="24"/>
+                      <VT_Type val="8"/>
+                    </Argument>
+                    <Argument>
+                      <id val="69"/>
+                      <Skip val="Y"/>
+                      <Name val="SaveChanges"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="70"/>
+                      <Skip val="Y"/>
+                      <Name val="OriginalFormat"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                    <Argument>
+                      <id val="71"/>
+                      <Skip val="Y"/>
+                      <Name val="RouteDocument"/>
+                      <Type val="16396"/>
+                      <VT_Type val="10"/>
+                    </Argument>
+                  </Arguments>
+                  <MethodName val="Quit"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Option val="M"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry id="1">
+            <PropertyList model="FORM_GUI0">
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="PruebaWordComObjects"/>
+              <UserStateIdentifier id="437"/>
+            </PropertyList>
+          </FormEntry>
+        </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="'D:\MisDocumentos\pepeprueba.doc'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="2">
+            <ExpSyntax val="'Esto es un documento de prueba'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="3">
+            <ExpSyntax val="'TRUE'LOG"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+        </Expressions>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

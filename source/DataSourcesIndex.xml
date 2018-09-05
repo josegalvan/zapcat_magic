@@ -1,0 +1,131 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="11000"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="211"/>
+
+  <LastIsnFolder val="2"/>
+
+  <Folders>
+    <Folder id="1">
+      <Name val="New folder 1"/>
+      <StartsAt val="100"/>
+    </Folder>
+    <Folder id="2">
+      <Name val="Comprobante"/>
+      <StartsAt val="100"/>
+    </Folder>
+  </Folders>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+  
+<DataObject PhysicalName="acabados" Resident="N" data_source="ZapCat" id="23" name="acabados" offset="413" length="8299"/> 
+<DataObject PhysicalName="articulo" Resident="N" data_source="ZapCat" id="24" name="articulo" offset="8713" length="18855"/> 
+<DataObject PhysicalName="asociado" Resident="N" data_source="ZapCat" id="53" name="asociado" offset="27569" length="26525"/> 
+<DataObject PhysicalName="colores" Resident="N" data_source="ZapCat" id="26" name="colores" offset="54095" length="6343"/> 
+<DataObject PhysicalName="documentos" Resident="N" data_source="ZapCat" id="27" name="documentos" offset="60439" length="23232"/> 
+<DataObject PhysicalName="estilos" Resident="N" data_source="ZapCat" id="28" name="estilos" offset="83672" length="6840"/> 
+<DataObject PhysicalName="marca" Resident="N" data_source="ZapCat" id="29" name="marca" offset="90513" length="10552"/> 
+<DataObject PhysicalName="modelos" Resident="N" data_source="ZapCat" id="30" name="modelos" offset="101066" length="6473"/> 
+<DataObject PhysicalName="pedidosheader" Resident="N" data_source="ZapCat" id="55" name="pedidosheader" offset="107540" length="18424"/> 
+<DataObject PhysicalName="pedidoslines" Resident="N" data_source="ZapCat" id="38" name="pedidoslines" offset="125965" length="19297"/> 
+<DataObject PhysicalName="preciosopcionales" Resident="N" data_source="ZapCat" id="39" name="preciosOpcionales" offset="145263" length="11312"/> 
+<DataObject PhysicalName="proveedor" Resident="N" data_source="ZapCat" id="34" name="proveedor" offset="156576" length="19618"/> 
+<DataObject PhysicalName="sucursal" Resident="N" data_source="ZapCat" id="35" name="sucursal" offset="176195" length="16304"/> 
+<DataObject PhysicalName="CatalogoImportacionTmp" Resident="N" data_source="Memory" id="41" name="CatalogoImportacionTMP" offset="192500" length="6405"/> 
+<DataObject PhysicalName="requisicionheader" Resident="N" data_source="ZapCat" id="42" name="RequisionHeader" offset="198906" length="9336"/> 
+<DataObject PhysicalName="requisicionlines" Resident="N" data_source="ZapCat" id="43" name="RequisicionLines" offset="208243" length="9449"/> 
+<DataObject PhysicalName="devolucionesheader" Resident="N" data_source="ZapCat" id="64" name="DevolucionesHeader" offset="217693" length="4251"/> 
+<DataObject PhysicalName="devolucioneslines" Resident="N" data_source="ZapCat" id="58" name="DevolucionesLines" offset="221945" length="14184"/> 
+<DataObject PhysicalName="causasdevoluciones" Resident="N" data_source="ZapCat" id="60" name="CausasDevoluciones" offset="236130" length="1508"/> 
+<DataObject PhysicalName="catalogostemporada" Resident="N" data_source="ZapCat" id="61" name="CatalogosTemporada" offset="237639" length="4816"/> 
+<DataObject PhysicalName="sociocatalogostemporada" Resident="N" data_source="ZapCat" id="68" name="Socio_CatalogosTemporada" offset="242456" length="6973"/> 
+<DataObject PhysicalName="creditoaplicado" Resident="N" data_source="ZapCat" id="71" name="CreditoAplicado" offset="249430" length="9986"/> 
+<DataObject PhysicalName="configuracion" Public="Configuracion" Resident="N" data_source="ZapCat" id="72" name="Configuracion" offset="259417" length="18593"/> 
+<DataObject PhysicalName="tiendaabastece" Resident="N" data_source="ZapCat" id="73" name="TiendaQueAbastece" offset="278011" length="20054"/> 
+<DataObject PhysicalName="catalogostatuspedidos" Resident="N" data_source="ZapCat" id="74" name="StatusDePedidos" offset="298066" length="1512"/> 
+<DataObject PhysicalName="pedidosheader" Resident="N" data_source="Memory" id="49" name="pedidosheaderMem" offset="299579" length="17071"/> 
+<DataObject PhysicalName="pedidoslines" Resident="N" data_source="Memory" id="50" name="pedidoslinesMem" offset="316651" length="26594"/> 
+<DataObject PhysicalName="asociado" Resident="N" data_source="Memory" id="56" name="asociadoMem" offset="343246" length="23971"/> 
+<DataObject PhysicalName="DevolucionesHeaderTem" Resident="N" data_source="Memory" id="65" name="DevolucionesHeaderTem" offset="367218" length="4110"/> 
+<DataObject PhysicalName="DevDetMem" Resident="N" data_source="Memory" id="62" name="DevolucionesDetalleTem" offset="371329" length="14170"/> 
+<DataObject PhysicalName="asociadoTem" Resident="N" data_source="Memory" id="66" name="asociadoTem" offset="385500" length="25671"/> 
+<DataObject PhysicalName="proveedorTem" Resident="N" data_source="Memory" id="67" name="proveedorTem" offset="411172" length="19653"/> 
+<DataObject PhysicalName="CatalogosTemporadaTem" Resident="N" data_source="Memory" id="69" name="CatalogosTemporadaTem" offset="430826" length="5190"/> 
+<DataObject PhysicalName="proveedor_catalogo" Resident="N" data_source="ZapCat" id="76" name="proveedor_catalogo" offset="436017" length="2784"/> 
+<DataObject PhysicalName="proveedor_catalogoTem" Resident="N" data_source="Memory" id="77" name="proveedor_catalogoTem" offset="438802" length="2748"/> 
+<DataObject PhysicalName="asociado" Resident="N" data_source="ZapCat" id="78" name="asociado" offset="441551" length="19337"/> 
+<DataObject PhysicalName="pedidoconfirmacion" Resident="N" data_source="ZapCat" id="80" name="PedidoConfirmacion" offset="460889" length="10425"/> 
+<DataObject PhysicalName="almacen" Resident="N" data_source="ZapCat" id="81" name="Almacen" offset="471315" length="17978"/> 
+<DataObject PhysicalName="AlmacenTem" Resident="N" data_source="Memory" id="83" name="AlmacenTem" offset="489294" length="18179"/> 
+<DataObject PhysicalName="pedidoslinesSeleccionTmp" Resident="N" data_source="Memory" id="84" name="PedidosLinesSeleccionTMP" offset="507474" length="23059"/> 
+<DataObject PhysicalName="documentosxTmp" Resident="N" data_source="Memory" id="86" name="documentosxTem" offset="530534" length="15851"/> 
+<DataObject PhysicalName="creditospendiente" Resident="N" data_source="Memory" id="87" name="CreditosPendientes" offset="546386" length="16244"/> 
+<DataObject PhysicalName="TotalesVtaTmp" Resident="N" data_source="Memory" id="88" name="TotalesVtaTmp" offset="562631" length="3204"/> 
+<DataObject PhysicalName="articuloTmp" Resident="N" data_source="Memory" id="89" name="articuloTmp" offset="565836" length="15683"/> 
+<DataObject PhysicalName="sociocatalogo" Resident="N" data_source="ZapCat" id="91" name="SocioCatalogo" offset="581520" length="4293"/> 
+<DataObject PhysicalName="SocioCatalogoTmp" Resident="N" data_source="Memory" id="92" name="SocioCatalogoTmp" offset="585814" length="4281"/> 
+<DataObject PhysicalName="ConfiguracionTmp" Resident="N" data_source="Memory" id="94" name="ConfiguracionTmp" offset="590096" length="18204"/> 
+<DataObject PhysicalName="comprasencab" Resident="N" data_source="ZapCat" id="95" name="ComprasEncab" offset="608301" length="9628"/> 
+<DataObject PhysicalName="comprasdetalle" Resident="N" data_source="ZapCat" id="96" name="ComprasDetalle" offset="617930" length="8481"/> 
+<DataObject PhysicalName="ComprasEncabTmp" Resident="N" data_source="Memory" id="97" name="ComprasEncab" offset="626412" length="9887"/> 
+<DataObject PhysicalName="ComprasDetalleTmp" Resident="N" data_source="Memory" id="98" name="ComprasDetalleTmp" offset="636300" length="9414"/> 
+<DataObject PhysicalName="preciobase" Resident="N" data_source="ZapCat" id="100" name="preciobase" offset="645715" length="18954"/> 
+<DataObject PhysicalName="enviomailsaproveedor" Resident="N" data_source="ZapCat" id="101" name="EnvioMailsAProveedor" offset="664670" length="8633"/> 
+<DataObject PhysicalName="EnvioMailsAProveedor.tmp" Resident="N" data_source="Memory" id="102" name="EnvioMailsAProveedor.tmp" offset="673304" length="9360"/> 
+<DataObject PhysicalName="pruebaheader" Resident="N" data_source="ZapCat" id="103" name="pruebaheader" offset="682665" length="3065"/> 
+<DataObject PhysicalName="pruebalines" Resident="N" data_source="zapcat" id="104" name="pruebalines" offset="685731" length="4591"/> 
+<DataObject PhysicalName="derechos" Public="derechos" Resident="N" data_source="ZapCat" id="121" name="derechos" offset="690323" length="4171"/> 
+<DataObject PhysicalName="usuario_derechos" Public="usuarios_derechos" Resident="N" data_source="ZapCat" id="125" name="usuario_derechos" offset="694495" length="5178"/> 
+<DataObject PhysicalName="usuarios" Public="usuarios" Resident="N" data_source="ZapCat" id="126" name="usuarios" offset="699674" length="9096"/> 
+<DataObject PhysicalName="usuario_derechosTmp" Public="usuario_derecho_Tmp" Resident="N" data_source="Memory" id="127" name="usuario_derechosTmp" offset="708771" length="5281"/> 
+<DataObject PhysicalName="PedidoConfirmacionMem" Resident="N" data_source="Memory" id="147" name="PedidoConfirmacionTmp" offset="714053" length="11168"/> 
+<DataObject PhysicalName="pedidos_status_fechas" Resident="N" data_source="ZapCat" id="149" name="pedidos_status_fechas" offset="725222" length="15080"/> 
+<DataObject PhysicalName="TmpDeDevDetalle" Resident="N" data_source="Memory" id="151" name="DevolucionesDetalleTemporal" offset="740303" length="13265"/> 
+<DataObject PhysicalName="pedidos_status_fechasTemp" Resident="N" data_source="Memory" id="152" name="pedidos_status_fechasTemp" offset="753569" length="11551"/> 
+<DataObject PhysicalName="documentoscancelados" Resident="N" data_source="ZapCat" id="154" name="documentoscancelados" offset="765121" length="6232"/> 
+<DataObject PhysicalName="pedidoscancelados" Resident="N" data_source="ZapCat" id="155" name="pedidoscancelados" offset="771354" length="6633"/> 
+<DataObject PhysicalName="devolucionesaprovheader" Resident="N" data_source="ZapCat" id="158" name="DevolucionesAProvHeader" offset="777988" length="4253"/> 
+<DataObject PhysicalName="devolucionesaprovlines" Resident="N" data_source="ZapCat" id="159" name="DevolucionesAProvLines" offset="782242" length="13613"/> 
+<DataObject PhysicalName="abonos_remisiones" Resident="N" data_source="ZapCat" id="163" name="abonos_remisiones" offset="795856" length="6435"/> 
+<DataObject PhysicalName="abonos_remisionesTmp" Resident="N" data_source="Memory" id="164" name="abonos_remisionesTmp" offset="802292" length="7262"/> 
+<DataObject PhysicalName="prueba" Resident="N" data_source="Memory" id="168" name="prueba" offset="809555" length="1900"/> 
+<DataObject PhysicalName="pedidoslinestemporada" Resident="N" data_source="ZapCat" id="170" name="PedidosLinesTemporada" offset="811456" length="6706"/> 
+<DataObject PhysicalName="TemporalAbiertoImpotacionTMP" Resident="N" data_source="Memory" id="172" name="TemporalAbiertoImportacion.TMP" offset="818163" length="6111"/> 
+<DataObject PhysicalName="tiposervicio" Resident="N" data_source="ZapCat" id="175" name="tiposervicio" offset="824275" length="1834"/> 
+<DataObject PhysicalName="periodosentrega" Resident="N" data_source="ZapCat" id="176" name="PeriodosEntrega" offset="826110" length="2330"/> 
+<DataObject PhysicalName="viasolicitud" Resident="N" data_source="ZapCat" id="178" name="viasolicitud" offset="828441" length="2671"/> 
+<DataObject PhysicalName="pedidos_status_fechasTemp" Resident="N" data_source="Memory" id="179" name="pedidos_status_fechasConsuTem" offset="831113" length="11555"/> 
+<DataObject PhysicalName="ComisionesPendientes" Resident="N" data_source="Memory" id="182" name="ComisionesPendientes" offset="842669" length="16173"/> 
+<DataObject PhysicalName="Socio_Credito" Resident="N" data_source="Memory" id="183" name="Socio_Credito" offset="858843" length="2169"/> 
+<DataObject PhysicalName="Etiquetas_Memory" Resident="N" data_source="Memory" id="184" name="Etiquetas" offset="861013" length="10467"/> 
+<DataObject PhysicalName="preciobaseMemEtiquetas" Resident="N" data_source="Memory" id="185" name="preciobaseMemEtiquetas" offset="871481" length="19296"/> 
+<DataObject PhysicalName="auth_group" Resident="N" data_source="ZapCat" id="186" name="auth_group" offset="890778" length="2953"/> 
+<DataObject PhysicalName="auth_group_permissions" Resident="N" data_source="ZapCat" id="187" name="auth_group_permissions" offset="893732" length="5402"/> 
+<DataObject PhysicalName="auth_permission" Resident="N" data_source="ZapCat" id="188" name="auth_permission" offset="899135" length="5106"/> 
+<DataObject PhysicalName="auth_user" Resident="N" data_source="ZapCat" id="189" name="auth_user" offset="904242" length="10712"/> 
+<DataObject PhysicalName="auth_user_groups" Resident="N" data_source="ZapCat" id="190" name="auth_user_groups" offset="914955" length="5342"/> 
+<DataObject PhysicalName="auth_user_user_permissions" Resident="N" data_source="ZapCat" id="191" name="auth_user_user_permissions" offset="920298" length="5408"/> 
+<DataObject PhysicalName="django_session" Resident="N" data_source="ZapCat" id="192" name="django_session" offset="925707" length="4234"/> 
+<DataObject PhysicalName="sucursal_tmp" Resident="N" data_source="Memory" id="195" name="sucursal_tmp" offset="929942" length="17579"/> 
+<DataObject PhysicalName="cattem" Resident="N" data_source="ZapCat" id="199" name="cattem" offset="947522" length="16954"/> 
+<DataObject PhysicalName="prueba" Resident="N" data_source="pg_nomina" id="201" name="prueba" offset="964477" length="2516"/> 
+<DataObject PhysicalName="prueba2" Resident="N" data_source="pg_nomina" id="202" name="prueba2" offset="966994" length="2201"/> 
+<DataObject PhysicalName="socio_descuento" Resident="N" data_source="ZapCat" id="204" name="socio_descuento" offset="969196" length="3620"/> 
+<DataObject PhysicalName="pedidos_encontrados" Resident="N" data_source="ZapCat" id="205" name="pedidos_encontrados" offset="972817" length="17649"/> 
+<DataObject PhysicalName="prov_ped_alm" Resident="N" data_source="ZapCat" id="206" name="prov_ped_alm" offset="990467" length="10703"/> 
+<DataObject PhysicalName="prov_ped_alm_det" Resident="N" data_source="ZapCat" id="207" name="prov_ped_alm_det" offset="1001171" length="8268"/> 
+<DataObject PhysicalName="prov_ped_alm_detalle" Resident="N" data_source="ZapCat" id="208" name="prov_ped_alm_detalle" offset="1009440" length="9124"/> 
+<DataObject PhysicalName="prov_ped_cierre" Resident="N" data_source="ZapCat" id="209" name="prov_ped_cierre" offset="1018565" length="18002"/> 
+<DataObject PhysicalName="prov_tarifas_desc" Resident="N" data_source="ZapCat" id="210" name="prov_tarifas_desc" offset="1036568" length="5127"/> 
+<DataObject PhysicalName="pedidos_encontrados_tmp" Resident="N" data_source="Memory" id="211" name="pedidos_encontrados_tmp" offset="1041696" length="17813"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30687828-3835322"/>  </Application>

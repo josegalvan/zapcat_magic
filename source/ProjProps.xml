@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11000"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="0"/>
+  </Header>
+
+  <ProjectProperties>
+    <ProjectData>
+      <GUID val="{870CA404-E491-4FD9-AD83-8207325E11A0}"/>
+      <RemoteFlowMonitorRight comp="-1"/>
+      <Icon val="D:\uniPaaS\Projects\ZAPCAT\imagenes\anubis.ico"/>
+      <ApplColorDefinitionFile val="%SUPPORT%clr_rnt.eng"/>
+      <RTInternalColorDefinitionFile val="%SUPPORT%clr_int.eng"/>
+      <ApplFontDefinitionFile val="%SUPPORT%fnt_rnt.eng"/>
+      <RTInternalFontDefinitionFile val="%SUPPORT%fnt_int.eng"/>
+      <NulArithmetic val="N"/>
+      <WindowSortBy val="R"/>
+      <_SystemPulldownMenu comp="-1" obj="2"/>
+      <_SystemContextMenu comp="-1"/>
+      <ProjectName val="ZAPCAT"/>
+    </ProjectData>
+  </ProjectProperties>
+
+</Application>
